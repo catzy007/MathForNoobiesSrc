@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.umbrella.catzy.mathfornoobies.bola">
+
+    <TextView
+        android:id="@+id/textview17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume Bola"
+        android:textSize="14pt"/>
+    <EditText
+        android:id="@+id/edtjarib"
+        android:layout_below="@+id/textview17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Inputkan Jari - Jari Bola"/>
+    <TextView
+        android:id="@+id/textview18"
+        android:layout_below="@+id/edtjarib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="10pt"/>
+    <Button
+        android:id="@+id/htgbola"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HItung"
+        android:textSize="10pt"/>
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.umbrella.catzy.mathfornoobies.tabung">
+
+    <TextView
+        android:id="@+id/textview19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume Tabung"
+        android:textSize="14pt"/>
+
+    <EditText
+        android:id="@+id/edtjaritt"
+        android:layout_below="@+id/textview19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Inputkan Jari-Jari Tabung" />
+
+    <EditText
+        android:id="@+id/edttggtt"
+        android:layout_below="@+id/edtjaritt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Inputkan Tinggi Tabung"/>
+
+    <TextView
+        android:id="@+id/textview20"
+        android:layout_below="@+id/edttggtt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="10pt"/>
+    <Button
+        android:id="@+id/htgtabung"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HITUNG"
+        android:textSize="10pt"
+        />
+
+</RelativeLayout>

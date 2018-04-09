@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.umbrella.catzy.mathfornoobies.balok">
+
+    <TextView
+        android:id="@+id/textview15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume Balok"
+        android:textSize="14pt"/>
+    <EditText
+        android:id="@+id/edtpjgb"
+        android:layout_below="@+id/textview15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Inputkan Panjang Balok"/>
+    <EditText
+        android:id="@+id/edtlbrb"
+        android:layout_below="@+id/edtpjgb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Inputkan Lebar Balok"/>
+    <EditText
+        android:id="@+id/edttggb"
+        android:layout_below="@+id/edtlbrb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Inputkan Tinggi Balok"/>
+    <TextView
+        android:id="@+id/textview16"
+        android:layout_below="@+id/edttggb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="10pt"/>
+    <Button
+        android:id="@+id/htgbalok"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:textSize="10pt"/>
+
+</RelativeLayout>

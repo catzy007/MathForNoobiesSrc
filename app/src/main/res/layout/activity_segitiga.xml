@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.umbrella.catzy.mathfornoobies.segitiga">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Segitiga"
+        android:textSize="14pt"/>
+
+    <EditText
+        android:id="@+id/alass"
+        android:layout_below="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Alas Segitiga"/>
+
+    <EditText
+        android:id="@+id/tinggis"
+        android:layout_below="@+id/alass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Tinggi Segitiga"/>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_below="@+id/tinggis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Segitiga Adalah : "
+        android:textSize="10pt"/>
+    <Button
+        android:id="@+id/htgsegitiga"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:textSize="10pt"/>
+
+</RelativeLayout>

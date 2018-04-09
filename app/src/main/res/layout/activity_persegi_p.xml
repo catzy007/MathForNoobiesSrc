@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.umbrella.catzy.mathfornoobies.PersegiP">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Persegi Panjang"
+        android:textSize="14pt"/>
+
+    <EditText
+        android:id="@+id/alasp"
+        android:layout_below="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Alas Persegi Panjang"/>
+
+    <EditText
+        android:id="@+id/tinggip"
+        android:layout_below="@+id/alasp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Tinggi Persegi Panjang"/>
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_below="@+id/tinggip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Persegi Panjang Adalah : "
+        android:textSize="10pt"/>
+    <Button
+        android:id="@+id/htgpersegip"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:textSize="10pt"/>
+</RelativeLayout>

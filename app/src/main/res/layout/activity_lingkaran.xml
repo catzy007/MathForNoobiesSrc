@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.umbrella.catzy.mathfornoobies.Lingkaran">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Lingkaran"
+        android:textSize="14pt"/>
+
+    <EditText
+        android:id="@+id/jariling"
+        android:layout_below="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Jari - Jari"/>
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_below="@+id/jariling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Lingkaran Adalah : "
+        android:textSize="10pt"/>
+    <Button
+        android:id="@+id/htgling"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:textSize="10pt"/>
+</RelativeLayout>

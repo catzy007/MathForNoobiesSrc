@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.umbrella.catzy.mathfornoobies.Kubus">
+
+    <TextView
+        android:id="@+id/textview13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume Kubus"
+        android:textSize="14pt"/>
+    <EditText
+        android:id="@+id/edtsisik"
+        android:layout_below="@+id/textview13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Inputkan Sisi Kubus"/>
+    <TextView
+        android:id="@+id/textview14"
+        android:layout_below="@+id/edtsisik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="10pt"/>
+    <Button
+        android:id="@+id/htgkubus"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:textSize="10pt"/>
+</RelativeLayout>
